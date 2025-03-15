@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 function LoadingScreenAnimation({ onComplete }) {
   const [text, setText] = useState("");
 
-  const fullText = "Glad to have you here!";
+  const fullText = "Welcome TO My Domain!";
 
   useEffect(() => {
     let index = 0;
