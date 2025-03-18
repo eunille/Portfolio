@@ -10,9 +10,9 @@ function Projects() {
   const [projects] = useState([
     {
       image: Container,
-      name: "E-Commerce App",
+      name: "AE-GYM Management",
       brief:
-        "Scalable Dashboard App with CRUD operations manages all the bookings, users, guests and services.",
+        "A Gym Management System that handle membership, gym products and analytics reports  ",
     },
     
   ]);
@@ -35,8 +35,8 @@ function Projects() {
               >
                 <h3 className="font-semibold text-xl mb-4">{project.name}</h3>
                 <p className="text-gray-300 mb-4">{project.brief} </p>
-                <div className="flex flex-wrap sm:items-center gap-2 mb-4">
-                  {["React","Vercel","TailwindCss"].map((tech, index) => (
+                <div className="flex flex-wrap sm:items-center justify-center gap-2 mb-4">
+                  {["React","Vercel","TailwindCss,Express"].map((tech, index) => (
                     <span
                       key={index}
                       className="bg-blue-500/10 text-blue-400 py-1 px-3 rounded-full text-balance hover:bg-blue-500/20 hover:shadow-[9_2px_8px_rgba(59,130,22.46,0.2)] transition "
