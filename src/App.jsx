@@ -9,6 +9,7 @@ import Projects from "./sections/Projects";
 import { Contact } from "./sections/Contact";
 import RevealOnScroll from "./Ui/RevealOnScroll";
 import Footer from "./sections/Footer";
+import Achievements from "./sections/Achievements";
 
 function App() {
   const [isLoading, setIsLoading] = useState(false);
@@ -26,6 +27,7 @@ function App() {
       </RevealOnScroll>
       <About />
       <Projects />
+      <Achievements />
       <Contact />
       <Footer />
     </>

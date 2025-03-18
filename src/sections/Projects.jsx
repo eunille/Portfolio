@@ -1,8 +1,4 @@
 import { useState } from "react";
-import dashboard from "../assets/dashboard-app.webp";
-import ecommerce from "../assets/e-commerce-app.png";
-import food from "../assets/food-app.jpg";
-import travel from "../assets/travel-app.jpg";
 import RevealOnScroll from "../Ui/RevealOnScroll";
 import Container from "../assets/Container.png";
 
