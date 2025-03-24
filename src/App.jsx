@@ -6,7 +6,6 @@ import Home from "./sections/Home";
 import AnimationWaves from "./Ui/AnimationWaves";
 import About from "./sections/About";
 import Projects from "./sections/Projects";
-import { Contact } from "./sections/Contact";
 import RevealOnScroll from "./Ui/RevealOnScroll";
 import Footer from "./sections/Footer";
 import Achievements from "./sections/Achievements";
@@ -28,7 +27,6 @@ function App() {
       <About />
       <Projects />
       <Achievements />
-      <Contact />
       <Footer />
     </>
   );
