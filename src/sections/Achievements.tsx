@@ -1,9 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import RevealOnScroll from "../Ui/RevealOnScroll";
-import Cloud from "../assets/Cloud.png";
-import Networks1 from "../assets/Networks1.png";
-import Cybersecurity from "../assets/Cybersecurity.png";
+import { Cloud, Network, Cybersecurity } from "../assets";
 
 
 function Achievements() {
@@ -16,7 +14,7 @@ function Achievements() {
     },
 
     {
-      image: Networks1,
+      image: Network,
       name: "INTRODUCTION TO NETWORKING",
       brief:
         "Introduction to Network is a course that covers the fundamentals of computer networking, including protocols, topologies, and network design.",
