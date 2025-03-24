@@ -41,12 +41,7 @@ function Navbar({ isMenuOpen, setIsMenuOpen }) {
               >
                 Projects
               </a>
-              <a
-                href="#contact"
-                className="text-gray-300 text-lg hover:text-xl hover:text-white transition-all"
-              >
-                Contact
-              </a>
+             
             </div>
           </div>
         </div>
