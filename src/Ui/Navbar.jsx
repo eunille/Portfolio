@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import PropTypes from "prop-types"; // Import PropTypes
 import Logo from "./Logo";
 import { MdMenu } from "react-icons/md";
 
@@ -41,7 +42,6 @@ function Navbar({ isMenuOpen, setIsMenuOpen }) {
               >
                 Projects
               </a>
-             
             </div>
           </div>
         </div>
@@ -49,5 +49,11 @@ function Navbar({ isMenuOpen, setIsMenuOpen }) {
     </nav>
   );
 }
+
+// Define PropTypes for the component
+Navbar.propTypes = {
+  isMenuOpen: PropTypes.bool.isRequired, // Validate isMenuOpen as a required boolean
+  setIsMenuOpen: PropTypes.func.isRequired, // Validate setIsMenuOpen as a required function
+};
 
 export default Navbar;

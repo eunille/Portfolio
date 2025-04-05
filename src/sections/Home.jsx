@@ -20,9 +20,9 @@ function Home() {
           I am Eunille
         </h1>
         <p className="text-gray-300 text-lg mb-8 max-w-lg mx-auto">
-          👋 Hi, I'm Eunille Jan! 🚀 Aspiring Tech Enthusiast | CS Student | ☁️
+          👋 Hi, I&apos;m Eunille Jan! 🚀 Aspiring Tech Enthusiast | CS Student | ☁️
           Certified Cloud Essentials, 
-          Project Management | 🎨 UI/UX Design 📚 Passionate about learning &
+          Project Management | 🎨 UI/UX Design 📚 Passionate about learning &amp;
           building innovative solutions!
         </p>
         <div className="flex justify-center items-center space-x-4">

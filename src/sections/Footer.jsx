@@ -1,4 +1,4 @@
-import { FaXTwitter } from "react-icons/fa6";
+
 import { SlSocialLinkedin } from "react-icons/sl";
 import { FaSquareGithub } from "react-icons/fa6";
 

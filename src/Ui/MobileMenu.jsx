@@ -1,4 +1,5 @@
 import { RxCross2 } from "react-icons/rx";
+import PropTypes from "prop-types"; // Import PropTypes
 
 function MobileMenu({ isMenuOpen, setIsMenuOpen }) {
   return (
@@ -51,5 +52,11 @@ function MobileMenu({ isMenuOpen, setIsMenuOpen }) {
     </div>
   );
 }
+
+// Define PropTypes for the component
+MobileMenu.propTypes = {
+  isMenuOpen: PropTypes.bool.isRequired, // Validate isMenuOpen as a required boolean
+  setIsMenuOpen: PropTypes.func.isRequired, // Validate setIsMenuOpen as a required function
+};
 
 export default MobileMenu;

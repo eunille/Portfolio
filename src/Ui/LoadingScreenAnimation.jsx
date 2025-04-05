@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import PropTypes from "prop-types"; // Import PropTypes
 
 function LoadingScreenAnimation({ onComplete }) {
   const [text, setText] = useState("");
@@ -38,5 +39,10 @@ function LoadingScreenAnimation({ onComplete }) {
     </div>
   );
 }
+
+// Define PropTypes for the component
+LoadingScreenAnimation.propTypes = {
+  onComplete: PropTypes.func.isRequired,
+};
 
 export default LoadingScreenAnimation;
