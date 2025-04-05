@@ -24,9 +24,13 @@ function App() {
         <Home />
         <AnimationWaves />
       </RevealOnScroll>
+      <RevealOnScroll>
       <About />
       <Projects />
       <Achievements />
+      
+      </RevealOnScroll>
+      
       <Footer />
     </>
   );
