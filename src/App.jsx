@@ -20,17 +20,12 @@ function App() {
       )}
       <Navbar isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
       <MobileMenu isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
-      <RevealOnScroll>
         <Home />
         <AnimationWaves />
-      </RevealOnScroll>
-      <RevealOnScroll>
+     
       <About />
       <Projects />
-      <Achievements />
-      
-      </RevealOnScroll>
-      
+      <Achievements />    
       <Footer />
     </>
   );

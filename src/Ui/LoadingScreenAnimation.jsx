@@ -4,7 +4,7 @@ import PropTypes from "prop-types"; // Import PropTypes
 function LoadingScreenAnimation({ onComplete }) {
   const [text, setText] = useState("");
 
-  const fullText = "Welcome TO My Domain!";
+  const fullText = "Welcome To My Page!";
 
   useEffect(() => {
     let index = 0;
