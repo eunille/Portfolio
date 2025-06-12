@@ -9,4 +9,4 @@ Currently, two official plugins are available:
 
 
 #Portfoilio
- This Portfolio is still for improvement and there will be more update soon
+ First Portfolio there will be more to be added in the future and improvements.
