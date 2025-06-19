@@ -10,3 +10,13 @@ Currently, two official plugins are available:
 
 #Portfoilio
  First Portfolio there will be more to be added in the future and improvements.
+ 
+ 👋 Hi, I'm Eunille Jan!
+🚀 Aspiring Tech Enthusiast | Computer Science Student
+
+🌟 I'm passionate about exploring the Tech World 🌍 and diving into fields like:
+
+💻 Web Development: Creating interactive and responsive web applications.
+☁️ Cloud Computing: Harnessing the power of scalable cloud infrastructure.
+🔒 Cybersecurity: Protecting digital spaces and ensuring robust security systems.
+📊 Project Management: Bridging technology and teamwork for successful outcomes.
