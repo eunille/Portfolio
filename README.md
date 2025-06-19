@@ -20,3 +20,8 @@ Currently, two official plugins are available:
 ☁️ Cloud Computing: Harnessing the power of scalable cloud infrastructure.
 🔒 Cybersecurity: Protecting digital spaces and ensuring robust security systems.
 📊 Project Management: Bridging technology and teamwork for successful outcomes.
+🎨 Figma Design: Crafting intuitive and visually appealing user interfaces.
+📚 I'm currently learning and expanding my skills through hands-on projects and collaborative work. I believe in the power of continuous learning and staying curious.
+
+💬 Let's connect and create impactful solutions together!
+
