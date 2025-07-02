@@ -23,5 +23,5 @@ Currently, two official plugins are available:
 🎨 Figma Design: Crafting intuitive and visually appealing user interfaces.
 📚 I'm currently learning and expanding my skills through hands-on projects and collaborative work. I believe in the power of continuous learning and staying curious.
 
-💬 Let's connect and create impactful solutions together!
+
 
