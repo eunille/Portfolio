@@ -6,30 +6,33 @@ function Home() {
   return (
     <section
       id="home"
-      className="min-h-screen flex flex-col justify-center items-center lg:flex-row-reverse gap-8 lg:gap-12 bg-gray-900 px-6"
+      className="min-h-screen flex flex-col justify-center items-center lg:flex-row-reverse gap-9 lg:gap-15 "
     >
-      <div className="text-center z-10">
+      <div className="text-center z-10 px-4">
         <img
-          className="w-[120px] mt-8 lg:w-[280px] rounded-2xl border-2 border-white/10 shadow-[0_6px_16px_rgba(59,130,246,0.3)] object-cover object-bottom hover:-translate-y-2 transition-all duration-300"
+          className="w-[220px] border-0 mt-20 rounded-4xl shadow-lg shadow-gray-500/70 lg:m-0 lg:max-w-[250px] object-cover object-bottom hover:translate-y-1 transition-all "
           src={profile}
-          alt="Eunille Jan's Profile"
+          alt="Profile Image"
         />
       </div>
-      <div className="text-center font-mono z-10 max-w-lg">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 bg-gradient-to-r from-teal-400 to-blue-600 bg-clip-text text-transparent leading-tight">
-          I am Eunille
+      <div className="text-center font-mono z-10 px-4">
+        <h1 className="text-4xl md:text-5xl lg:text-6xl lg:max-w[500px] font-semibold mb-6 px-1 bg-gradient-to-r from-teal-400 via-blue-500 to-indigo-600 bg-clip-text text-transparent leading-right ">
+          I am Eunille Jan
         </h1>
-        <p className="text-gray-200 text-lg md:text-xl mb-8 leading-relaxed mx-auto">
-          👋 Full Stack Web Developer proficient in React and ExpressJS, building scalable web applications. Cybersecurity Enthusiast learning SOC Level 1 skills, passionate about defensive strategies and innovative tech solutions.
+        <p className="text-gray-300 text-lg mb-8 max-w-lg mx-auto">
+          👋 Hi, I&apos;m Eunille Jan! 🚀 Full Stack Web Developer proficient in React and ExpressJS, building scalable web applications. Cybersecurity Enthusiast learning SOC Level 1 skills, passionate about defensive strategies and innovative tech solutions.
         </p>
         <div className="flex justify-center items-center space-x-4">
+          
           <a
-            className="bg-gradient-to-r flex items-center from-teal-400 to-blue-600 py-3 px-6 rounded-2xl font-medium text-white hover:-translate-y-2 hover:shadow-[0_6px_16px_rgba(59,130,246,0.4)] transition-all duration-300"
+            className="bg-gradient-to-r flex flex-row from-teal-500 to-indigo-600 py-3 px-6 rounded hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]  font-medium transition relative overflow-hidden "
             href={resume}
             download
           >
-            <span>Download Resume</span>
-            <FiDownload className="ml-3 text-xl" />
+            <p>Resume </p>
+            <span className="h-5 ml-3 text-2xl text-white">
+              <FiDownload />
+            </span>
           </a>
         </div>
       </div>
